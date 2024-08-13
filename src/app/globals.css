@@ -148,6 +148,7 @@ body {
 	/* border: 0.3rem solid #f00; */
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .containerGlobal {
