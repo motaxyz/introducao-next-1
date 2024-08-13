@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link"
+
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
           alt="logo"
           className={styles.imageHomePage}
         />
+<button className={styles.botao}> <Link href="/usuarios/login">temp</Link></button>
+       
         </div>
     </div>
   )
