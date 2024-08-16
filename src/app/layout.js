@@ -2,11 +2,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import Rodape from "@/components/rodape";
+import Cabecalho from "@/components/cabecalho";
 
 
 const inter = Inter({ subsets: ["latin"] });
 
-import Rodape from "@/components/rodape";
+
 
 
 export const metadata = {
@@ -18,10 +19,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+      <Cabecalho />
       {children}
+      
       <Rodape />
-        {children}
-        <Rodape />
       </body>
     </html>
   );
