@@ -19,6 +19,6 @@ export default function CardProduto({ produto }) {
             <span className={styles.produtoNome}>{produto.prd_nome}</span>
             <span className={styles.produtoValor}>{produto.prd_valor}</span>
         </div>
-            // </Link> 
+        //  </Link>
          );
 }
